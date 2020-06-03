@@ -231,3 +231,34 @@ def translate_backward():
     win32api.keybd_event(VK_CODE['q'], 0,0,0)
     time.sleep(.05)
     win32api.keybd_event(VK_CODE['q'],0 ,win32con.KEYEVENTF_KEYUP ,0)
+
+
+def roll_left():
+    win32api.keybd_event(VK_CODE['q'], 0,0,0)
+    time.sleep(.05)
+    win32api.keybd_event(VK_CODE['q'],0 ,win32con.KEYEVENTF_KEYUP ,0)
+
+def roll_right():
+    win32api.keybd_event(VK_CODE['q'], 0,0,0)
+    time.sleep(.05)
+    win32api.keybd_event(VK_CODE['q'],0 ,win32con.KEYEVENTF_KEYUP ,0)
+
+def pitch_up():
+    win32api.keybd_event(VK_CODE['q'], 0,0,0)
+    time.sleep(.05)
+    win32api.keybd_event(VK_CODE['q'],0 ,win32con.KEYEVENTF_KEYUP ,0)
+
+def pitch_down():
+    win32api.keybd_event(VK_CODE['q'], 0,0,0)
+    time.sleep(.05)
+    win32api.keybd_event(VK_CODE['q'],0 ,win32con.KEYEVENTF_KEYUP ,0)
+
+def yaw_left():
+    win32api.keybd_event(VK_CODE['q'], 0,0,0)
+    time.sleep(.05)
+    win32api.keybd_event(VK_CODE['q'],0 ,win32con.KEYEVENTF_KEYUP ,0)
+
+def yaw_right():
+    win32api.keybd_event(VK_CODE['q'], 0,0,0)
+    time.sleep(.05)
+    win32api.keybd_event(VK_CODE['q'],0 ,win32con.KEYEVENTF_KEYUP ,0)
