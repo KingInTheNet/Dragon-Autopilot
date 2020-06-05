@@ -24,7 +24,7 @@ def main():
     #     translate_forward()
     #     time.sleep(.100)
     #     i-=1
-    convert_tiff_all()
+    # convert_tiff_all()
     list_img()
     process()
 
