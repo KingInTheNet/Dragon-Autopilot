@@ -2,7 +2,7 @@ import time
 from grabber import screendGrab
 from movement import *
 import win32gui,win32con
-from get_input import list_img,process,convert_tiff_all
+from get_input import list_img,process,convert_tiff_all,list_png
 
 def main():
     # screendGrab()
@@ -25,7 +25,8 @@ def main():
     #     time.sleep(.100)
     #     i-=1
     # convert_tiff_all()
-    list_img()
+    # list_img()
+    list_png()
     process()
 
 if __name__=='__main__':
